@@ -1,0 +1,74 @@
+
+
+/*new style*/
+
+body{
+    background-color: #e9c46a;
+    color: #264653;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #2A9D8F;
+  }
+  nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  nav a:hover {
+    background-color: #264653;
+    color: white;
+  }
+  
+
+  .img {
+    float: left;
+    width: 40%;
+    padding: 20px;
+  }
+  .aboutme {
+    float: left;
+    padding: 20px;
+    width: 50%;
+  }
+  .section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .education {
+    float: left;
+    width: 30%;
+    padding: 20px;
+  }
+  .jobs {
+    float: left;
+    width: 30%;
+    padding: 20px;
+  }
+  .hobbies {
+    float: left;
+    width: 30%;
+    padding: 20px;
+  }
+  .details::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .socials {
+    background-color: #2A9D8F;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    color: white;
+  }
